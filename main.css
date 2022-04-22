@@ -4,7 +4,7 @@ header {
   align-items: center;
   padding: 20px;
 }
-  .header__logo {
+.header__logo {
   height: 30px;
 }
 header a {
@@ -34,10 +34,6 @@ button {
   width: 500px;
 }
 
-.about__sun-image {
-  width: 100px;
-  height: 100px;
-}
 .about {
   display: flex;
   justify-content: space-around;
@@ -105,7 +101,6 @@ button {
   font-size: 18px;
   font-weight: 600;
   padding: 15px;
-
 }
 .form input .form select {
   font-size: 18px;
@@ -169,4 +164,12 @@ footer {
 }
 .footer__links > a {
   padding-bottom: 15px;
+}
+@keyframes rotation {
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
 }

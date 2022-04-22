@@ -1,0 +1,97 @@
+Index: .idea/dataSources.local.xml
+===================================================================
+diff --git a/.idea/dataSources.local.xml b/.idea/dataSources.local.xml
+deleted file mode 100644
+--- a/.idea/dataSources.local.xml	(revision 1b3a6fe69000a4173ae3affd07e8499594dd287c)
++++ /dev/null	(revision 1b3a6fe69000a4173ae3affd07e8499594dd287c)
+@@ -1,25 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="dataSourceStorageLocal" created-in="IU-212.5712.43">
+-    <data-source name="CONFSBMG" uuid="77270ba5-85bf-41ba-882d-69f6a64c0050">
+-      <database-info product="Oracle" version="Oracle Database 19c Enterprise Edition Release 19.0.0.0.0 - Production&#10;Version 19.14.0.0.0" jdbc-version="4.2" driver-name="Oracle JDBC driver" driver-version="21.1.0.0.0" dbms="ORACLE" exact-version="19.0.0.0.0" exact-driver-version="21.1">
+-        <extra-name-characters>$#</extra-name-characters>
+-        <identifier-quote-string>&quot;</identifier-quote-string>
+-      </database-info>
+-      <case-sensitivity plain-identifiers="upper" quoted-identifiers="exact" />
+-      <secret-storage>master_key</secret-storage>
+-      <user-name>DEVELOPER</user-name>
+-      <schema-mapping>
+-        <introspection-scope>
+-          <node kind="schema">
+-            <name qname="@" />
+-            <name qname="UFS_HEALTHCHECK_MASTER_SB_MG" />
+-            <name qname="UFS_SERVICE_REGISTRY_SB_MG" />
+-            <name qname="UFSPARAMS_SB_MG" />
+-            <name qname="ABD" />
+-          </node>
+-        </introspection-scope>
+-      </schema-mapping>
+-    </data-source>
+-  </component>
+-</project>
+\ No newline at end of file
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"355357b0-9a35-4cf6-a2c0-71e7530fe80e\" name=\"Changes\" comment=\"Добавлено тело\" />\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"DatabaseLocalColorSettings\">\n    <colors>\n      <entry key=\"77270ba5-85bf-41ba-882d-69f6a64c0050\" value=\"Blue\" />\n    </colors>\n  </component>\n  <component name=\"Git.Settings\">\n    <favorite-branches>\n      <branch-storage>\n        <map>\n          <entry type=\"LOCAL\">\n            <value>\n              <list>\n                <branch-info repo=\"$PROJECT_DIR$\" source=\"main\" />\n              </list>\n            </value>\n          </entry>\n        </map>\n      </branch-storage>\n    </favorite-branches>\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"GitSEFilterConfiguration\">\n    <file-type-list>\n      <filtered-out-file-type name=\"LOCAL_BRANCH\" />\n      <filtered-out-file-type name=\"REMOTE_BRANCH\" />\n      <filtered-out-file-type name=\"TAG\" />\n      <filtered-out-file-type name=\"COMMIT_BY_MESSAGE\" />\n    </file-type-list>\n  </component>\n  <component name=\"ProjectId\" id=\"27mtpMLwifuouRLtTEFKmFovyfm\" />\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\">\n    <property name=\"DatabaseDriversLRU\" value=\"oracle\" />\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\n    <property name=\"RunOnceActivity.ShowReadmeOnStart\" value=\"true\" />\n    <property name=\"WebServerToolWindowFactoryState\" value=\"false\" />\n    <property name=\"last_opened_file_path\" value=\"$PROJECT_DIR$\" />\n    <property name=\"settings.editor.selected.configurable\" value=\"configurable.group.editor\" />\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"355357b0-9a35-4cf6-a2c0-71e7530fe80e\" name=\"Changes\" comment=\"\" />\n      <created>1649937273208</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1649937273208</updated>\n      <workItem from=\"1649937280223\" duration=\"50000\" />\n      <workItem from=\"1649937463519\" duration=\"7000\" />\n      <workItem from=\"1649938430732\" duration=\"1915000\" />\n      <workItem from=\"1650003150706\" duration=\"643000\" />\n      <workItem from=\"1650112276335\" duration=\"105000\" />\n      <workItem from=\"1650112443950\" duration=\"131000\" />\n      <workItem from=\"1650266588514\" duration=\"33000\" />\n      <workItem from=\"1650266646448\" duration=\"4710000\" />\n      <workItem from=\"1650384874027\" duration=\"8024000\" />\n    </task>\n    <task id=\"LOCAL-00001\" summary=\"Добавлено тело\">\n      <created>1650384450451</created>\n      <option name=\"number\" value=\"00001\" />\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1650384450451</updated>\n    </task>\n    <option name=\"localTasksCounter\" value=\"2\" />\n    <servers />\n  </component>\n  <component name=\"TypeScriptGeneratedFilesManager\">\n    <option name=\"version\" value=\"3\" />\n  </component>\n  <component name=\"Vcs.Log.Tabs.Properties\">\n    <option name=\"TAB_STATES\">\n      <map>\n        <entry key=\"MAIN\">\n          <value>\n            <State />\n          </value>\n        </entry>\n      </map>\n    </option>\n    <option name=\"oldMeFiltersMigrated\" value=\"true\" />\n  </component>\n  <component name=\"VcsManagerConfiguration\">\n    <MESSAGE value=\"Добавлено тело\" />\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Добавлено тело\" />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 1b3a6fe69000a4173ae3affd07e8499594dd287c)
++++ b/.idea/workspace.xml	(date 1650474452755)
+@@ -1,17 +1,16 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+   <component name="ChangeListManager">
+-    <list default="true" id="355357b0-9a35-4cf6-a2c0-71e7530fe80e" name="Changes" comment="Добавлено тело" />
++    <list default="true" id="355357b0-9a35-4cf6-a2c0-71e7530fe80e" name="Changes" comment="Добавлено тело">
++      <change afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++    </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+     <option name="LAST_RESOLUTION" value="IGNORE" />
+   </component>
+-  <component name="DatabaseLocalColorSettings">
+-    <colors>
+-      <entry key="77270ba5-85bf-41ba-882d-69f6a64c0050" value="Blue" />
+-    </colors>
+-  </component>
+   <component name="Git.Settings">
+     <favorite-branches>
+       <branch-storage>
+@@ -47,7 +46,7 @@
+     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+     <property name="WebServerToolWindowFactoryState" value="false" />
+     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+-    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
++    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+   </component>
+   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+   <component name="TaskManager">
+@@ -65,7 +64,8 @@
+       <workItem from="1650112443950" duration="131000" />
+       <workItem from="1650266588514" duration="33000" />
+       <workItem from="1650266646448" duration="4710000" />
+-      <workItem from="1650384874027" duration="8024000" />
++      <workItem from="1650384874027" duration="8767000" />
++      <workItem from="1650473330833" duration="846000" />
+     </task>
+     <task id="LOCAL-00001" summary="Добавлено тело">
+       <created>1650384450451</created>
+Index: _config.yml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/_config.yml b/_config.yml
+new file mode 100644
+--- /dev/null	(date 1650474388363)
++++ b/_config.yml	(date 1650474388363)
+@@ -0,0 +1,1 @@
++theme: jekyll-theme-cayman
+\ No newline at end of file
